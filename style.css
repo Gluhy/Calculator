@@ -4,20 +4,27 @@ body{
     text-align: center;
 }
 
-#rownaSie{
+#equal{
     width: 292px;
 }
 
-p{
-    height: 150px;
+.p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 292px;
+    height: 120px;
     font-size: 50px;
+    background-color: rgb(135, 136, 135);
+    border-radius: 5px;
+    border: 2px solid rgb(112, 100, 89);
 }
 
-.number{
+.number, .event{
     height: 70px;
     width: 70px;
-    border-radius: 10px;
-    background-color: darkgray;
+    border-radius: 40px;
+    background:linear-gradient(darkgray, rgb(112, 112, 112));
     color: white;
     margin-top: 2px;
     margin-bottom: 2px;
@@ -26,15 +33,7 @@ p{
     font-size: 25px;
 }
 
-.event{
-    height: 70px;
-    width: 70px;
-    border-radius: 5px;
-    background-color: rgba(255, 166, 0, 0.76);
-    color: white;
-    margin-top: 2px;
-    margin-bottom: 2px;
-    border:none;
-    text-align: center;
-    font-size: 25px;
+.event, #clear{
+    background: linear-gradient(rgba(255, 166, 0, 0.76), rgb(133, 81, 50)) ;
+
 }
